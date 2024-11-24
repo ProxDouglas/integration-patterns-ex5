@@ -1,0 +1,16 @@
+{
+  "id": 123,
+  "cliente": "João Silva",
+  "itens": [
+    {
+      "produto": "Naruto V2",
+      "quantidade": 1,
+      "preco": 45.5
+    },
+    {
+      "produto": "Turma da Mônica",
+      "quantidade": 3,
+      "preco": 15.0
+    }
+  ]
+}

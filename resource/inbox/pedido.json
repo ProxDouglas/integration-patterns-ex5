@@ -1,16 +1,35 @@
 {
-  "id": 123,
-  "cliente": "João Silva",
-  "itens": [
+  "cliente": {
+    "id": 123,
+    "nome": "João Silva",
+    "cpf": "12345678901"
+  },
+  "produtos": [
     {
+      "id_produto": 1,
       "produto": "Naruto V2",
       "quantidade": 1,
       "preco": 45.5
     },
     {
+      "id_produto": 1,
       "produto": "Turma da Mônica",
       "quantidade": 3,
       "preco": 15.0
     }
-  ]
+  ],
+  "pagamento": {
+    "metodo": "credito",
+    "cartao": {
+      "numero": "1234567890123456",
+      "nomeTitular": "João da Silva"
+    }
+  },
+  "endereco": {
+    "rua": "Rua dos Bobos",
+    "bairro": "Jardim São Paulo",
+    "cidade": "São Paulo",
+    "estado": "São Paulo",
+    "numero": "743"
+  }
 }
